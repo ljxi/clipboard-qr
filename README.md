@@ -1,4 +1,4 @@
-# Clipboard QR (qr)
+# Clipboard QR (cqr)
 
 这是一个轻量级的命令行工具，用于**识别**剪切板中的二维码图片，或根据文本**生成**二维码并自动存入剪切板。
 
@@ -11,7 +11,7 @@ uv tool install https://github.com/ljxi/clipboard-qr.git
 
 ```
 
-安装完成后，你可以在终端直接使用 `qr` 命令。
+安装完成后，你可以在终端直接使用 `cqr` 命令。
 
 ---
 
@@ -38,7 +38,7 @@ qr
 
 * **操作**：在命令后跟随你想要转换的内容：
 ```bash
-qr "https://example.com"
+cqr "https://example.com"
 
 ```
 

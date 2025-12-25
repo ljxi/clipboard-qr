@@ -13,4 +13,4 @@ dependencies = [
 ]
 
 [project.scripts]
-qr = "main:main"
+cqr = "main:main"
