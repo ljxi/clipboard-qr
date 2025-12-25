@@ -117,7 +117,7 @@ def main():
             print("提示：剪切板中没有图片。")
             print("用法：")
             print("  识别：先复制图片，然后直接运行脚本")
-            print("  生成：qr '要生成的文本'")
+            print("  生成：cqr '要生成的文本'")
             return
         
         results = decode_qrcode(img)
